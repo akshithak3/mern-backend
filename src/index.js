@@ -13,7 +13,7 @@ app.use("/auth", userRouter);
 app.use("/recipes", recipesRouter);
 
 mongoose.connect(
-  "mongodb+srv://admin:admin@realestate.soyvrdl.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://admin:admin@realestate.soyvrdl.mongodb.net/RealEstate?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
